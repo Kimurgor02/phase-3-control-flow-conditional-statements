@@ -26,7 +26,7 @@ function howsTheWeather(temperature) {
   } else if (temperature > 85) {
     response = "too dang hot";
   } else {
-    response = "perfect";
+    response = "perfect"; 
   }
   return `It's ${response} out there!`;
 }
